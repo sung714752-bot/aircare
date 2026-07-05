@@ -6,6 +6,13 @@
 - Netlify
 - Vercel
 
+## Vercel 자동 배포
+
+- GitHub Actions 워크플로: `.github/workflows/vercel.yml`
+- `main` 브랜치 push: Vercel production 배포
+- Pull request 생성/갱신: Vercel preview 배포
+- GitHub repository secret 필요: `VERCEL_TOKEN`
+
 ## 배포 전 확인
 
 - [ ] 실제 예약 링크 연결
